@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<!-- <shape xmlns="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+  <gradient 
+    android:angle="135"
+    android:startColor="#35D9D3"
+    android:endColor="#309590"
+    android:type="linear"
+  />
+</shape> -->
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:drawable="@color/primary" />
   <item 
     android:width="200dp"
     android:height="200dp"
-    android:drawable="@drawable/icon"
+    android:drawable="@drawable/pulseira"
     android:gravity="center"
   />
 </layer-list>
