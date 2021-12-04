@@ -1,8 +1,9 @@
 import React from 'react';
-import {StyleSheet, View, Text} from 'react-native';
+import {StyleSheet, View} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 
 import HeartButton from './HeartButton';
+import ProfilePicture from './ProfilePicture';
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
         style={styles.LinearGradient}
         start={{x: 0, y: 0}}
         end={{x: 1, y: 1}}>
+        <ProfilePicture />
         <HeartButton />
       </LinearGradient>
     </View>
