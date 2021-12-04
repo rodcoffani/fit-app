@@ -2,6 +2,8 @@ import React from 'react';
 import {StyleSheet, View, Text} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 
+import HeartButton from './HeartButton';
+
 const Home = () => {
   return (
     <View styles={styles.LinearGradient}>
@@ -10,7 +12,7 @@ const Home = () => {
         style={styles.LinearGradient}
         start={{x: 0, y: 0}}
         end={{x: 1, y: 1}}>
-        <Text style={{fontSize: 48}}>LOADED</Text>
+        <HeartButton />
       </LinearGradient>
     </View>
   );
