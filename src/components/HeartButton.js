@@ -6,6 +6,7 @@ import {
   Text,
   StyleSheet,
   Image,
+  Dimensions,
 } from 'react-native';
 
 const HeartButton = () => {
@@ -38,7 +39,8 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     flexDirection: 'row',
-    width: '85%',
+    // width: '85%',
+    width: Dimensions.get('window').width - 25,
   },
 
   text: {
